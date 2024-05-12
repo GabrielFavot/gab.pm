@@ -4,8 +4,9 @@
       <MenuBar />
     </div>
     <div class="flex flex-col justify-center h-screen mx-8">
-      <MainText />
-      <span class="italic">I make small bits of the internet</span>
+      <div class="absolute bottom-5 h-[50%]">
+        <MainText />
+      </div>
     </div>
   </div>
 </template>
